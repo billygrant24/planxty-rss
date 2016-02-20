@@ -1,0 +1,21 @@
+{
+  "name": "williamgrant/planxty-rss",
+  "description": "Add an RSS feed to a Planxty site",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "William Grant-Buckley",
+      "email": "hello@william.scot"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Planxty\\": "src"
+    }
+  },
+  "require": {
+    "williamgrant/planxty": "*",
+    "suin/php-rss-writer": "^1.3"
+  }
+}
